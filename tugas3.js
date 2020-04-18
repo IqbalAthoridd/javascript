@@ -1,10 +1,10 @@
 function getData(x) {
-    console.log("sebelum di rubah", x);
-    var x = 20;
+    console.log("Sebelum di rubah =", x);
+    var x = "Iya Apa?";
     return x;
 }
-getData(50);
+getData("Halooo")
 
 var ambilData = getData();
 
-console.log(ambilData)
+console.log("Sesudah di Rubah =", ambilData)
