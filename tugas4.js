@@ -1,6 +1,6 @@
-var tinggiAndi = 165;
-var tinggiBudi = 170;
-var tinggiAgus = 130;
+var tinggiAndi = 170;
+var tinggiBudi = 150;
+var tinggiAgus = 165;
 
 
 if (tinggiAndi > tinggiBudi)
@@ -24,15 +24,19 @@ if (tinggiAndi > tinggiBudi)
             }
         }
     }
-} else
+} else if (tinggiBudi > tinggiAgus)
 {
-    if (tinggiBudi > tinggiAgus)
+    if (tinggiAgus > tinggiAndi)
     {
-        console.log("Budi Paling tinggi")
-        console.log("tinggi Budi = ", tinggiBudi, "|", "tinggi Agus = ", tinggiAgus, "|", "tinggi Andi = ", tinggiAndi)
+        console.log("Budi yang paling tinggi")
+        console.log("tinggi Budi = ", tinggiBudi, "|", "tinggi Agus = ", tinggiAgus, "|", "tinggiAndi = ", tinggiAndi)
     } else
     {
-        console.log("Agus Paling tinggi")
-        console.log("tinggi Agus = ", tinggiAgus, "|", "tinggi Budi = ", tinggiBudi, "|", "tinggi Andi =", tinggiAndi)
+        console.log("Budi paling tinggi")
+        console.log("tinggi Budi = ", tinggiBudi, "|", "tinggi Andi = ", tinggiAndi, "|", "tinggi Agus = ", tinggiAgus)
     }
+} else
+{
+    console.log("Agus Paling tinggi")
+    console.log("tinggi Agus = ", tinggiAgus, "|", "tinggi Budi = ", tinggiBudi, "|", "tinggi Andi =", tinggiAndi)
 }
