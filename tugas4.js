@@ -1,6 +1,7 @@
-var tinggiAndi = 198;
-var tinggiBudi = 173;
-var tinggiAgus = 172;
+var tinggiAndi = 165;
+var tinggiBudi = 170;
+var tinggiAgus = 130;
+
 
 if (tinggiAndi > tinggiBudi)
 {
@@ -35,6 +36,3 @@ if (tinggiAndi > tinggiBudi)
         console.log("tinggi Agus = ", tinggiAgus, "|", "tinggi Budi = ", tinggiBudi, "|", "tinggi Andi =", tinggiAndi)
     }
 }
-
-
-
