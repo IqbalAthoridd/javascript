@@ -6,6 +6,9 @@ function dataObject() {
         harga: 5000000,
     }
     console.log(handphone)
+    handphone.type = 'Asus ROG';
+    console.log("====== sesudah di ubah ======")
+    console.log(handphone)
 }
 
 dataObject()
