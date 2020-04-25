@@ -33,6 +33,10 @@ if (tinggiAndi > tinggiBudi)
         console.log("Budi paling tinggi")
         console.log("tinggi Budi = ", tinggiBudi, "|", "tinggi Andi = ", tinggiAndi, "|", "tinggi Agus = ", tinggiAgus)
     }
+} else if (tinggiAgus == tinggiBudi && tinggiAgus == tinggiAndi)
+{
+    console.log("tinggi mereka sama")
+    console.log("tinggi Agus = ", tinggiAgus, "|", "tinggi Budi = ", tinggiBudi, "|", "tinggi Andi =", tinggiAndi)
 } else
 {
     console.log("Agus Paling tinggi")
