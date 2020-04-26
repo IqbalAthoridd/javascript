@@ -7,4 +7,4 @@ function unShift() {
     return buah
 }
 
-console.log(unshift())
+console.log(unShift())
