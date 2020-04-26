@@ -4,6 +4,8 @@ function popShift() {
 
     buah.pop()
     buah.push()
+    console.log(buah)
+    buah.pop()
 
     return buah
 }
