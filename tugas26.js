@@ -3,9 +3,12 @@ function mencariInfinite() {
     console.log(data)
 
     data.forEach((x, y, z) => {
+        var result = x.toString;
+        result = Number(result);
+        result = isFinite(result)
 
 
-        if (isFinite(x) == true)
+        if (result == false)
         {
             console.log("Angka", x, "Not Infinity")
         } else
