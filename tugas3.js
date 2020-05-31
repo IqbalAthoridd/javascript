@@ -7,4 +7,4 @@ getData("Halooo")
 
 var ambilData = getData();
 
-console.log("Sesudah di Rubah =", ambilData)
+console.log("Sesudah di Rubahssss =", ambilData)
